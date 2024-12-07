@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "title": "Snake Game",
+        "description": "A classic snake game built using SDL2 and C, featuring smooth controls and growing difficulty.",
+        "technologies": ["C", "SDL2"],
+        "image": "/snake.png",
+        "demoLink": "https://www.facebook.com/100011736046935/videos/591350426709409/",
+        "codeLink": "https://github.com/maruf6890/snake",
+        "date": "June 2024",
+        "status": "Completed"
+    },
+    {
+        "id": 2,
+        "title": "Portfolio Website",
+        "description": "My personal portfolio website built using React and TailwindCSS, showcasing my skills and projects.",
+        "technologies": ["React", "TailwindCSS"],
+        "image": "/portfolio.png",
+        "demoLink": "https://your-portfolio.com",
+        "codeLink": "https://github.com/your-repo/portfolio",
+        "date": "August 2024",
+        "status": "Completed"
+    },
+    {
+        "id": 3,
+        "title": "Tic Tac Toe",
+        "description": "A  project I started to learn dom manupulation",
+        "technologies": ["Tailwind", "JS"],
+        "image": "/tictack.png",
+        "demoLink": "https://maruf6890.github.io/tic-tac-toe/",
+        "codeLink": "https://maruf6890.github.io/tic-tac-toe/",
+        "date": "October 2024",
+        "status": "In Progress"
+    },
+    {
+        "id": 4,
+        "title": "E-Commerce Website",
+        "description": "An e-commerce platform built with React, Node.js, and MongoDB, providing features like product listing and cart.",
+        "technologies": ["React", "Node.js", "MongoDB"],
+        "image": null,
+        "demoLink":null,
+        "codeLink": null,
+        "date": "December 2025",
+        "status": "Upcoming"
+    },
+    {
+        "id": 5,
+        "title": "Blog Application",
+        "description": "A full-stack blog application where users can create, edit, and delete blog posts, built using Express and MongoDB.",
+        "technologies": ["Express", "MongoDB", "JavaScript"],
+        "image": null,
+        "demoLink": null,
+        "codeLink": null,
+        "date": "December 2024",
+        "status": "Upcoming"
+    },
+    {
+        "id": 6,
+        "title": "Fitness App",
+        "description": "A Fitness guidacne app to for tracking user data and prefer personalize guidance to become fit",
+        "technologies": ["React", "API Integration", "CSS"],
+        "image": null,
+        "demoLink": null,
+        "codeLink": null,
+        "date": "December 2024",
+        "status": "Upcoming"
+    }
+]
