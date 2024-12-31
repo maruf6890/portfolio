@@ -1,14 +1,14 @@
-# Personal Portfolio
+# Portfolio
 
 This is a simple React-based personal portfolio website designed to showcase my skills, projects, and achievements.
 
-## Features
+## Features  ✨ 
 - **Project Showcase**: Highlights my key projects with descriptions and links.
 - **Skills Section**: Displays my technical skills and tools.
 - **Contact Form**: A form to get in touch with me directly.
 - **Responsive Design (in progress)**: The layout adapts to different screen sizes (currently being improved).
 
-## Technologies Used
+## Technologies Used  🔥
 - **Frontend**: React, HTML, CSS, JavaScript
 - **Styling**: Tailwind CSS, Daisy UI
 
@@ -38,11 +38,13 @@ This is a simple React-based personal portfolio website designed to showcase my 
 
 ## Contact
 If you'd like to connect or provide feedback, feel free to reach out:
-- **Email**: [your-email@example.com]
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
+- **Email**: maruf6890@gmail.com
+- **LinkedIn**: [inkedin.com/in/maruf6890/](https://www.linkedin.com/in/maruf6890/)
+- **GitHub**: [github.com/maruf6890/](https://github.com/maruf6890/)
 
 ---
+## [Visit Website](https://glittering-cucurucho-e62fa4.netlify.app/) 
+
 
 Thank you for visiting my portfolio!
 
