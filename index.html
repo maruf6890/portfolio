@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mehedi Hasan Maruf — Developer Notebook</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Caveat:wght@500;700&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<svg class="defs">
+  <filter id="sketchy-edge" x="-6%" y="-6%" width="112%" height="112%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.012 0.03" numOctaves="2" seed="7" result="noise"/>
+    <feDisplacementMap in="SourceGraphic" in2="noise" scale="4.2" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+</svg>
+
+<header>
+  <nav class="wrap">
+    <div class="logo">
+      <svg viewBox="0 0 40 40" fill="none"><path d="M6 30 Q10 8 20 10 Q30 12 34 28" stroke="#c1443a" stroke-width="3" stroke-linecap="round"/><circle cx="20" cy="20" r="3" fill="#24314f"/></svg>
+      maruf.dev
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navList">
+      <svg viewBox="0 0 20 16"><rect class="bar1" width="20" height="2.4" rx="1.2"/><rect class="bar2" y="6.8" width="20" height="2.4" rx="1.2"/><rect class="bar3" y="13.6" width="20" height="2.4" rx="1.2"/></svg>
+    </button>
+    <ul id="navList">
+      <li><a href="#work" data-nav>Work</a></li>
+      <li><a href="#skills" data-nav>Skills</a></li>
+      <li><a href="#experience" data-nav>Experience</a></li>
+      <li><a href="#activities" data-nav>Activities</a></li>
+      <li><a href="#contact" data-nav>Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="wrap">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div>
+      <span class="eyebrow-tag">status: currently building</span>
+      <h1>
+        I sketch ideas<br>before I
+        <span class="underline-wrap">ship code
+          <svg class="underline" viewBox="0 0 300 18" preserveAspectRatio="none">
+            <path d="M4 12 Q80 2 150 10 T296 8" />
+          </svg>
+        </span>
+      </h1>
+      <p class="lede">Hi, I'm Mehedi Hasan Maruf — a developer who thinks in diagrams and margin notes. I turn messy whiteboard ideas into products people actually use, from first wireframe to production deploy.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#work">See the notebook →</a>
+        <a class="btn" href="#contact">Say hello</a>
+      </div>
+    </div>
+
+    <div class="doodle-panel">
+      <figure class="doodle-card sketchy">
+        <svg viewBox="0 0 260 200" width="100%" height="auto">
+          <rect x="6" y="6" width="248" height="188" fill="none" stroke="#24314f" stroke-width="2"/>
+          <path d="M20 150 L60 90 L95 120 L140 50 L180 95 L235 40" fill="none" stroke="#c1443a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="60" cy="90" r="4" fill="#24314f"/>
+          <circle cx="140" cy="50" r="4" fill="#24314f"/>
+          <circle cx="235" cy="40" r="4" fill="#24314f"/>
+          <text x="20" y="30" font-family="Kalam, cursive" font-size="16" fill="#24314f">// deploy day</text>
+          <path d="M25 170 h210" stroke="#5c5c52" stroke-width="1" stroke-dasharray="4 4"/>
+          <text x="20" y="186" font-family="JetBrains Mono, monospace" font-size="9" fill="#5c5c52">uptime ↑ · bugs ↓</text>
+        </svg>
+        <figcaption>a page from an actual notebook</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="reveal" id="about">
+    <h2 class="section-title">About me <span class="margin-note">margin note</span></h2>
+    <p class="section-intro">I'm currently pursuing my degree in Software Engineering at Shahjalal University of Science and Technology, while working as a Junior Software Engineer. I'm genuinely passionate about tech — always poking at something new, from full-stack web apps to AI/ML — and I still start every idea with a sketch before it becomes code.</p>
+    <!-- content rendered by script.js from content.js: SITE_CONTENT.aboutStats -->
+    <div class="about-grid" id="about-stats"></div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="reveal" id="work">
+    <h2 class="section-title">Selected work <span class="margin-note">pinned to the board</span></h2>
+    <p class="section-intro">A few projects I've sketched, built, and shipped end to end.</p>
+    <!-- content rendered by script.js from content.js: SITE_CONTENT.projects -->
+    <div class="projects-board" id="projects-board"></div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="reveal" id="skills">
+    <h2 class="section-title">Toolkit <span class="margin-note">not to scale</span></h2>
+    <p class="section-intro">Grouped by category, with dots showing how much I reach for each one.</p>
+
+    <div class="skills-legend">
+      <span class="dots"><i class="filled"></i><i class="filled"></i><i class="filled"></i></span> daily driver
+      <span class="sep">|</span>
+      <span class="dots"><i class="filled"></i><i class="filled"></i><i></i></span> comfortable
+      <span class="sep">|</span>
+      <span class="dots"><i class="filled"></i><i></i><i></i></span> still learning
+    </div>
+
+    <!-- content rendered by script.js from content.js: SITE_CONTENT.skillGroups -->
+    <div class="skills-groups" id="skills-groups"></div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="reveal" id="experience">
+    <h2 class="section-title">Experience <span class="margin-note">the timeline page</span></h2>
+    <!-- content rendered by script.js from content.js: SITE_CONTENT.experience -->
+    <div class="timeline" id="timeline"></div>
+  </section>
+
+  <!-- TECHNICAL ACTIVITIES -->
+  <section class="reveal" id="activities">
+    <h2 class="section-title">Technical activities <span class="margin-note">field notes</span></h2>
+    <p class="section-intro">Hackathons, talks, and competitions I've shown up for outside of day-to-day work.</p>
+    <!-- content rendered by script.js from content.js: SITE_CONTENT.activities -->
+    <div class="activities-grid" id="activities-grid"></div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="reveal" id="contact">
+    <div class="contact-note sketchy">
+      <h2>Got an idea worth sketching?</h2>
+      <p>I'm always up for a good whiteboard session — reach out and let's figure out what to build.</p>
+      <div class="contact-links">
+        <a class="btn primary" href="mailto:maruf@example.com">Email me</a>
+        <a class="btn" href="#">GitHub</a>
+        <a class="btn" href="#">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>drawn, coded, and occasionally erased — © 2026 Mehedi Hasan Maruf</footer>
+
+<script src="content.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
