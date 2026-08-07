@@ -13,42 +13,66 @@ window.SITE_CONTENT = {
      Add or remove objects freely; the grid adjusts automatically.
      ------------------------------------------------------------- */
   aboutStats: [
-    { num: "SUST", label: "software engineering, in progress" },
-    { num: "3",    label: "SaaS platforms worked on so far" },
-    { num: "∞",    label: "new tech I want to explore next" }
-  ],
+  { num: "6+", label: "Full-stack projects built" },
+  { num: "3+", label: "AI-powered applications developed" },
+  { num: "10+", label: "Technologies explored" }
+],
 
   /* -------------------------------------------------------------
      SELECTED WORK — project cards.
      icon: one of "route", "plate", "radar", "code", "chart" (see
      script.js ICONS if you want to add a new shape).
      ------------------------------------------------------------- */
-  projects: [
-    {
-      icon: "route",
-      name: "Routewise",
-      description: "Route-planning tool for small delivery fleets. Cuts average driver mileage by 18% using a live traffic-aware solver.",
-      tags: ["React", "Node", "PostGIS"],
-      link: "#",
-      linkLabel: "view case study →"
-    },
-    {
-      icon: "plate",
-      name: "PixelPantry",
-      description: "Offline-first recipe organizer. Scans handwritten recipe cards and turns them into searchable, shareable pages.",
-      tags: ["Svelte", "PWA", "OCR"],
-      link: "#",
-      linkLabel: "view case study →"
-    },
-    {
-      icon: "radar",
-      name: "Beacon",
-      description: "Open-source uptime and incident monitor with a status page generator. 2.1k GitHub stars, community-maintained.",
-      tags: ["Go", "Postgres", "Docker"],
-      link: "#",
-      linkLabel: "view on GitHub →"
-    }
-  ],
+ projects: [
+  {
+    icon: "brain",
+    name: "EduAI",
+    description: "AI-powered classroom platform with student and instructor workflows, including classrooms, assignments, discussions, learning resources, and RAG-based AI assistance.",
+    tags: ["Next.js", "FastAPI", "PostgreSQL", "LangChain"],
+    link: "https://github.com/maruf6890/EduAI",
+    linkLabel: "view on GitHub →"
+  },
+  {
+    icon: "bolt",
+    name: "Office Monitor",
+    description: "Real-time smart energy monitoring platform that tracks office device usage, power consumption, and energy waste with AI-powered insights and alerts.",
+    tags: ["Next.js", "FastAPI", "WebSocket", "Gemini AI"],
+    link: "https://github.com/maruf6890/office-electricity-tracker",
+    linkLabel: "view on GitHub →"
+  },
+  {
+    icon: "megaphone",
+    name: "AI Social Media Management Platform",
+    description: "AI-powered marketing platform for managing social media content, generating posts, scheduling campaigns, analyzing engagement, and creating designs with an integrated image editor.",
+    tags: ["Next.js", "FastAPI", "Express.js", "Gemini API"],
+    link: "https://github.com/maruf6890/marketing-platform",
+    linkLabel: "view on GitHub →"
+  },
+  {
+    icon: "layout",
+    name: "Survey Agent Platform",
+    description: "Production survey management platform with admin workflows, platform agent tools, API integrations, and a structured MDX-based documentation system.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "MDX"],
+    link: "#",
+    linkLabel: "view case study →"
+  },
+  {
+    icon: "gamepad",
+    name: "Space Shooter",
+    description: "2D arcade shooter game built with LibGDX featuring player controls, enemy behavior, collision detection, and gameplay mechanics.",
+    tags: ["Java", "LibGDX"],
+    link: "https://github.com/maruf6890/space-shooter",
+    linkLabel: "view on GitHub →"
+  },
+  {
+    icon: "snake",
+    name: "Snake Classic",
+    description: "Classic Snake game implemented using C and SDL2 with custom game loop, collision detection, scoring system, and keyboard controls.",
+    tags: ["C", "SDL2"],
+    link: "https://github.com/maruf6890/snake",
+    linkLabel: "view on GitHub →"
+  }
+],
 
   /* -------------------------------------------------------------
      TOOLKIT — grouped skills.
@@ -151,35 +175,21 @@ window.SITE_CONTENT = {
      badge: one of "win", "finalist", "speaker", "participant"
      (controls both the badge color and the ribbon icon).
      ------------------------------------------------------------- */
-  activities: [
-    {
-      name: "HackTheNorth",
-      badge: "win",
-      badgeLabel: "🏆 Winner",
-      meta: "Sept 2023 · Best Use of AI",
-      description: "Built a real-time captioning tool for screen readers using on-device speech models, with two teammates over 36 hours."
-    },
-    {
-      name: "ETHGlobal Online",
-      badge: "finalist",
-      badgeLabel: "Finalist",
-      meta: "Nov 2022 · 400+ teams",
-      description: "Prototyped a decentralized bug-bounty escrow platform in Solidity; placed in the top 10 of the general track."
-    },
-    {
-      name: "DevFest Local",
-      badge: "speaker",
-      badgeLabel: "Speaker",
-      meta: "May 2024 · ~150 attendees",
-      description: "Gave a talk on \"sketch-first engineering\" — how paper prototyping speeds up real product decisions."
-    },
-    {
-      name: "Civic Tech Hackathon",
-      badge: "participant",
-      badgeLabel: "Participant",
-      meta: "Mar 2021 · City of Fremont",
-      description: "Built a live transit-delay tracker for the local bus system with a team of four, my first hackathon ever."
-    }
-  ]
+activities: [
+  {
+    name: "SciBlitz 2.0",
+    badge: "finalist",
+    badgeLabel: "Finalist",
+    meta: "2025 · Science & Technology Competition",
+    description: "Reached the finalist stage of SciBlitz 2.0, a science and technology competition focused on innovation, problem solving, and technical creativity."
+  },
+  {
+    name: "NEUB CSE Fest",
+    badge: "participant",
+    badgeLabel: "Participant",
+    meta: "2025 · Hackathon & Technology Festival",
+    description: "Participated in NEUB CSE Fest, a technology festival featuring programming contests, hackathons, and project-based competitions."
+  }
+]
 
 };
