@@ -145,7 +145,7 @@ window.SITE_CONTENT = {
       role: "Junior Software Engineer",
       company: "App-Concept",
       companyUrl: "https://app-concept.com/",
-      date: "Jan 2024 — Present",
+      date: "Dec 2025 — Present",
       bullets: [
         "Working on a SaaS platform for end-to-end survey management",
         "Collaborating with cross-functional teams to deliver features on time",
